@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>017 List Groups and Badges</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="container out-container">
+    <div class="container head-container text-center rounded" style="background-color:#217C7E">
+      <h4><b>List Groups and Badges</b></h4>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container head-container">List Group :</div>
+    <div class="container inside-container">
+      <ul class="list-group">
+        <li class="list-group-item">List Group Item One</li>
+        <li class="list-group-item">List Group Item Two</li>
+        <li class="list-group-item">List Group Item Three</li>
+        <li class="list-group-item">List Group Item Four</li>
+        <li class="list-group-item">List Group Item Five</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container head-container">List Group With Links :</div>
+    <div class="container inside-container">
+      <ul class="list-group">
+        <a class="list-group-item list-group-item-action">List Group Item One</a>
+        <a class="list-group-item list-group-item-action">List Group Item Two</a>
+        <a class="list-group-item list-group-item-action">List Group Item Three</a>
+        <a class="list-group-item list-group-item-action">List Group Item Four</a>
+        <a class="list-group-item list-group-item-action">List Group Item Five</a>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container head-container">Contexual Lists :</div>
+    <div class="container inside-container">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-action">Default Group List</li>
+        <li class="list-group-item list-group-item-primary list-group-item-action">Primary Group List</li>
+        <li class="list-group-item list-group-item-secondary list-group-item-action">Secondary Group List</li>
+        <li class="list-group-item list-group-item-success list-group-item-action">Sussess Group List</li>
+        <li class="list-group-item list-group-item-info list-group-item-action">Info Group List</li>
+        <li class="list-group-item list-group-item-warning list-group-item-action">Warning Group List</li>
+        <li class="list-group-item list-group-item-danger list-group-item-action">Danger Group List</li>
+        <li class="list-group-item list-group-item-light list-group-item-action">Light Group List</li>
+        <li class="list-group-item list-group-item-dark list-group-item-action">Dark Group List</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container head-container">Javascript Behavior :</div>
+    <div class="container inside-container pr-4">
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="tab-list" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-about-list" data-toggle="list" href="#list-about">About Us</a>
+            <a class="list-group-item list-group-item-action" id="list-contact-list" data-toggle="list" href="#list-contact">Contact</a>
+          </div>
+        </div>
+        <div class="col-8 tab-content bg-light pt-2 rounded" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel">
+            Home Content..
+          </div>
+          <div class="tab-pane fade" id="list-about" role="tabpanel">
+            About Content..
+          </div>
+          <div class="tab-pane fade" id="list-contact" role="tabpanel">
+            Contact Info..
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container head-container">Badges :</div>
+    <div class="container inside-container">
+      <ul class="list-group">
+        <li class="list-group-item">List Group Item One</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">List Group Item Two <span class="badge badge-primary">30</span></li>
+        <li class="list-group-item">List Group Item Three</li>
+        <li class="list-group-item">List Group Item Four</li>
+        <li class="list-group-item">List Group Item Five</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container head-container">Breadcrumbs :</div>
+    <div class="container inside-container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" href="#">Home</li>
+      </ol>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" href="#"><a href="#">Home</a></li>
+        <li class="breadcrumb-item" href="#">About</li>
+      </ol>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" href="#"><a href="#">Home</a></li>
+        <li class="breadcrumb-item" href="#"><a href="#">About</a></li>
+        <li class="breadcrumb-item" href="#">Services</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="container out-container">
+    <div class="container finish-container">That's All Folks!!</div>
+  </div>
+
+  <div class="container out-container mb-5">
+    <div class="container head-container">Pages</div>
+    <div class="container inside-container">
+      <a href="../007 Heading and Base Typograpy/index.html"><button class="big-button page-button">007</button></a>
+      <a href="../008 Text Alignment & Display/index.html"><button class="big-button page-button">008</button></a>
+      <button class="big-button" disabled>009</button>
+      <a href="../010 Text Colors and Backgrounds/index.html"><button class="big-button page-button">010</button></a>
+      <a href="../011 Marging Padding and Spacing/index.html"><button class="big-button page-button">011</button></a>
+      <a href="../012 Sizing and Borders/index.html"><button class="big-button page-button">012</button></a>
+      <a href="../013 CSS Breakpoints/index.html"><button class="big-button page-button">013</button></a>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+</body>
+
+</html>

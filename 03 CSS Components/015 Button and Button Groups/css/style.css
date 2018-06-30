@@ -1,0 +1,49 @@
+.out-container {
+  margin: 10px auto;
+}
+
+.head-container {
+  background-color: #D3A98D;
+  padding: 5px 0 10px 10px;
+  font-weight: bold;
+}
+
+.inside-container {
+  background-color: #75CDFD;
+  padding: 5px 10px 10px 10px;
+}
+
+.finish-container {
+  background-color: #7851A8;
+  padding: 5px 10px 10px 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.big-button{
+    background-color: #7851A8; /* Green */
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.page-button{
+  background-color: white;
+    color: black;
+    border: 2px solid #7851A8;
+}
+
+.page-button:hover {
+    background-color: #7851A8;
+    color: white;
+}
